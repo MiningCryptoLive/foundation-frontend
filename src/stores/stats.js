@@ -4,7 +4,7 @@ import { writable } from 'svelte/store'
 const endpoint = ''
 
 // TODO: replace with DEFAULT_POOL or similiar from env vars
-export const selected_pool = writable("Ravencoin")
+export const selected_pool = writable("Dogecoin")
 
 export function createStatStore() {
     const { subscribe, set, update } = writable({})
