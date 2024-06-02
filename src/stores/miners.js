@@ -1,7 +1,7 @@
 import { writable } from 'svelte/store'
 import { get } from 'svelte/store'
 
-const endpoint = ''
+const endpoint = '127.0.0.1:3001'
 
 // TODO: put endpoint in config for the SvelteKit port:
 //const endpoint = import.meta.env.VITE_FOUNDATION_API
